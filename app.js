@@ -21,4 +21,5 @@ function getWeather() {
 	.then(data => {
 		ui.drawWeather(data)
 	})
+	.catch(error => console.log(error));
 }
